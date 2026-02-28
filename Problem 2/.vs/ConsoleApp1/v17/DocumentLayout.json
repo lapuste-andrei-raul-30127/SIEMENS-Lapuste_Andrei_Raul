@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\raull\\Desktop\\SIEMENS INTERSHIP\\New folder\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC8656B-D676-4DD9-A520-2BC512DB68E2}|ConsoleApp1.csproj|C:\\Users\\raull\\Desktop\\SIEMENS INTERSHIP\\New folder\\ConsoleApp1\\classes\\ourshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC8656B-D676-4DD9-A520-2BC512DB68E2}|ConsoleApp1.csproj|solutionrelative:classes\\ourshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC8656B-D676-4DD9-A520-2BC512DB68E2}|ConsoleApp1.csproj|C:\\Users\\raull\\Desktop\\SIEMENS INTERSHIP\\New folder\\ConsoleApp1\\classes\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC8656B-D676-4DD9-A520-2BC512DB68E2}|ConsoleApp1.csproj|solutionrelative:classes\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC8656B-D676-4DD9-A520-2BC512DB68E2}|ConsoleApp1.csproj|C:\\Users\\raull\\Desktop\\SIEMENS INTERSHIP\\New folder\\ConsoleApp1\\classes\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC8656B-D676-4DD9-A520-2BC512DB68E2}|ConsoleApp1.csproj|solutionrelative:classes\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC8656B-D676-4DD9-A520-2BC512DB68E2}|ConsoleApp1.csproj|c:\\users\\raull\\desktop\\siemens intership\\new folder\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC8656B-D676-4DD9-A520-2BC512DB68E2}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OurShop.cs",
+              "DocumentMoniker": "C:\\Users\\raull\\Desktop\\SIEMENS INTERSHIP\\New folder\\ConsoleApp1\\classes\\OurShop.cs",
+              "RelativeDocumentMoniker": "classes\\OurShop.cs",
+              "ToolTip": "C:\\Users\\raull\\Desktop\\SIEMENS INTERSHIP\\New folder\\ConsoleApp1\\classes\\OurShop.cs",
+              "RelativeToolTip": "classes\\OurShop.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T21:34:50.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\raull\\Desktop\\SIEMENS INTERSHIP\\New folder\\ConsoleApp1\\classes\\Order.cs",
+              "RelativeDocumentMoniker": "classes\\Order.cs",
+              "ToolTip": "C:\\Users\\raull\\Desktop\\SIEMENS INTERSHIP\\New folder\\ConsoleApp1\\classes\\Order.cs",
+              "RelativeToolTip": "classes\\Order.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T20:00:44.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\raull\\Desktop\\SIEMENS INTERSHIP\\New folder\\ConsoleApp1\\classes\\Item.cs",
+              "RelativeDocumentMoniker": "classes\\Item.cs",
+              "ToolTip": "C:\\Users\\raull\\Desktop\\SIEMENS INTERSHIP\\New folder\\ConsoleApp1\\classes\\Item.cs",
+              "RelativeToolTip": "classes\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T19:50:19.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\raull\\Desktop\\SIEMENS INTERSHIP\\New folder\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\raull\\Desktop\\SIEMENS INTERSHIP\\New folder\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T19:46:50.057Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

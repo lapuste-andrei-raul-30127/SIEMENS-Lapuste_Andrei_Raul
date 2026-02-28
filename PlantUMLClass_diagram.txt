@@ -1,0 +1,101 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class CoffeeShop{
+-ShopId: int;
++Shop: string;
++Address: string
++ShopStaff: List<Barista>
++Prices: PriceList
++initializeOrder(customer: Customer, barista: Barista)
++getShopId(): int
+}
+
+enum Beverage{
++Espresso
++Latte
++Cappuccino
+}
+
+enum DrinkSize{
++Small
++Medium
++Large
+}
+
+enum Extra{
++ShotOfExpresso
++Vanilla_Syrup
++Caramel_Syrup
++Whipped_cream
+}
+
+enum LoyaltyLevel{
++Regular
++Gold
+}
+
+class Customer{
+-CustomerId: int
++CustomerName: string
++LoyaltyPoints: decimal
++Loyalty: LoyaltyLevel
++canPayWithPoints(price: decimal): bool
++PointPayment(price: decimal):bool
++SimplePayment(price: decimal):bool
++getCustomerId(): int
+}
+
+class Barista{
+-BaristaId: int
++Name: string
++setBeverage(order: Order)
++setSize(order: Order):void
++addExtra(order: Order):void
++calculateTotalPrice(order: Order):decimal
++initiatePayment(customer: Customer, TotalPrice: decimal):bool
++getBaristaId(): int
+}
+
+class Order{
+-OrderId: int
++_barista: Barista
++_customer: Customer
++_drink: Beverage
++_size: DrinkSize
++_extra: Dictionary<Extra, int>
++timeStamp: DateTime
++TotalPrice: decimal
+
++Order(customer: Customer, barista: Barista)
+}
+
+class PriceList{
+-BaseBeveragePrices: Dictionary<|Beverage, DrinkSize|, decimal>
+-ExtrasPrices: Dictionary<Extra, decimal>
++GetBasePrice(drink: Beverage , size: DrinkSize): decimal
++GetExtraPrice(ListOfExtras: Dictionary<Extra, Integer>):decimal
+}
+
+
+CoffeeShop ..> Customer
+CoffeeShop "1" o-- "*" Barista
+CoffeeShop "1" o-- "1" PriceList
+CoffeeShop ..> Order
+Customer ..> LoyaltyLevel
+Barista ..> Customer
+Barista ..> Order
+Barista ..> Beverage
+Barista ..> DrinkSize
+Barista ..> Extra
+Barista ..> PriceList
+Order "1" o-- "1" Customer
+Order "1" o-- "1" Barista
+Order ..> Beverage
+Order ..> DrinkSize
+Order ..> Extra
+
+PriceList..> Beverage
+PriceList..> DrinkSize
+PriceList..> Extra
+@enduml
